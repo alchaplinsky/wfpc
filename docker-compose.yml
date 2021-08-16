@@ -2,27 +2,27 @@ version: '3.9'
 
 services:
   rails:
-    image: perf/rails
+    image: performance/rails
     ports:
       - 3000:3000
     volumes:
       - ./rails:/myapp
   sinatra:
-    image: perf/sinatra
+    image: performance/sinatra
     ports:
       - 3001:4567
     volumes:
       - ./sinatra:/myapp
     command: bundle exec rackup --host 0.0.0.0 -p 4567
   express:
-    image: perf/express
+    image: performance/express
     ports:
       - 3002:3002
     volumes:
       - ./express:/myapp
     command: node index.js
   flask:
-    image: perf/flask
+    image: performance/flask
     ports:
       - 3003:5000
     environment:
@@ -30,13 +30,13 @@ services:
     volumes:
       - ./flask:/myapp
   django:
-    image: perf/django
+    image: performance/django
     ports:
       - 3004:8000
     volumes:
       - ./django:/myapp
   laravel:
-    image: perf/laravel
+    image: performance/laravel
     ports:
       - 3005:8181
     volumes:

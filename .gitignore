@@ -1,5 +1,5 @@
 node_modules
 __pycache__
-tmp/*
+rails/tmp/*
 *.sqlite3
 *.log
