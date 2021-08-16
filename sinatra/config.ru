@@ -1,0 +1,2 @@
+require './webapp'
+run WebApp
