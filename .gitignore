@@ -3,3 +3,4 @@ __pycache__
 rails/tmp/*
 *.sqlite3
 *.log
+.DS_Store
