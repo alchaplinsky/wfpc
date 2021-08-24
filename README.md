@@ -9,10 +9,12 @@ The purpose of this project is to attempt to measure a performance of different 
 
 ## Results
 
-Test was performed with ApacheBench tool performing 10k requests with concurrency level 10.
+Test was performed with **ApacheBench** tool performing **10k** requests with **concurrency level 10**.
+
 ```
 ab -n 10000 -c 10 http://127.0.0.1:port
-```
+``` 
+
 
 | Framework     | Web Server   | Time taken | Requests per second | Time per request | Longest request |
 | ------------- |-------------:|-----------:|--------------------:| ----------------:|----------------:|
