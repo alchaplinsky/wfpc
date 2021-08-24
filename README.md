@@ -18,12 +18,12 @@ ab -n 10000 -c 10 http://127.0.0.1:port
 
 | Framework     | Web Server   | Time taken | Requests per second | Time per request | Longest request |
 | ------------- |-------------:|-----------:|--------------------:| ----------------:|----------------:|
-| Express       | Node.js/http | 5.7s       | 1744.55             | 5.7 ms           | 184 ms          |
+| Express       | Node.js/http | 5.7s       | 1744.5              | 5.7 ms           | 184 ms          |
 | Flask         | waitress     | 9.0s       | 1109.6              | 9.0 ms           | 130 ms          |
-| Sinatra       | Puma 5.4     | 16.4s      | 608.84              | 16.4 ms          | 239 ms          |
-| Django        | WSGIServer   | 21.9s      | 455.74              | 21.9 ms          | 62 ms           |
-| Rails         | Puma 5.4     | 138.4s     | 72.21               | 138.4 ms         | 1171 ms          |
-| Laravel       | nginx        | 378.5s     | 26.42               | 378.5 ms         | 1042 ms         |
+| Sinatra       | Puma 5.4     | 16.4s      | 608.8               | 16.4 ms          | 239 ms          |
+| Django        | WSGIServer   | 21.9s      | 455.7               | 21.9 ms          | 62 ms           |
+| Rails         | Puma 5.4     | 138.4s     | 72.2                | 138.4 ms         | 1171 ms         |
+| Laravel       | nginx        | 378.5s     | 26.4                | 378.5 ms         | 1042 ms         |
 
 
 ## You can test it yourself
