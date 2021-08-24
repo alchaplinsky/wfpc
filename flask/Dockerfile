@@ -8,4 +8,4 @@ WORKDIR /myapp
 RUN pip3 install -r requirements.txt
 ENV FLASK_APP=myapp
 
-ENTRYPOINT python myapp.py
+ENTRYPOINT waitress-serve --port=5000 --call myapp:create_app
