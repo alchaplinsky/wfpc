@@ -1,0 +1,35 @@
+Server Software:        Puma
+Server Hostname:        127.0.0.1
+Server Port:            3000
+
+Document Path:          /
+Document Length:        13 bytes
+
+Concurrency Level:      10
+Time taken for tests:   138.476 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      10142706 bytes
+HTML transferred:       130000 bytes
+Requests per second:    72.21 [#/sec] (mean)
+Time per request:       138.476 [ms] (mean)
+Time per request:       13.848 [ms] (mean, across all concurrent requests)
+Transfer rate:          71.53 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0      12
+Processing:    25  138  58.5    129    1171
+Waiting:       25  138  58.4    129    1171
+Total:         26  138  58.5    130    1171
+
+Percentage of the requests served within a certain time (ms)
+  50%    130
+  66%    140
+  75%    147
+  80%    151
+  90%    165
+  95%    184
+  98%    212
+  99%    241
+ 100%   1171 (longest request)

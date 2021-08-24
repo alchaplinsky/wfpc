@@ -1,0 +1,35 @@
+Server Software:        waitress
+Server Hostname:        localhost
+Server Port:            3003
+
+Document Path:          /
+Document Length:        13 bytes
+
+Concurrency Level:      10
+Time taken for tests:   9.012 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      1660000 bytes
+HTML transferred:       130000 bytes
+Requests per second:    1109.66 [#/sec] (mean)
+Time per request:       9.012 [ms] (mean)
+Time per request:       0.901 [ms] (mean, across all concurrent requests)
+Transfer rate:          179.89 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   1.2      0     121
+Processing:     3    9   2.3      9      67
+Waiting:        3    8   2.3      8      67
+Total:          3    9   2.6      9     130
+
+Percentage of the requests served within a certain time (ms)
+  50%      9
+  66%      9
+  75%     10
+  80%     10
+  90%     11
+  95%     11
+  98%     12
+  99%     13
+ 100%    130 (longest request)

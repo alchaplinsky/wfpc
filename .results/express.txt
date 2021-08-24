@@ -1,0 +1,35 @@
+Server Software:        http
+Server Hostname:        127.0.0.1
+Server Port:            3002
+
+Document Path:          /
+Document Length:        15 bytes
+
+Concurrency Level:      10
+Time taken for tests:   5.732 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      2140000 bytes
+HTML transferred:       150000 bytes
+Requests per second:    1744.55 [#/sec] (mean)
+Time per request:       5.732 [ms] (mean)
+Time per request:       0.573 [ms] (mean, across all concurrent requests)
+Transfer rate:          364.58 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0      25
+Processing:     2    6   6.0      5     184
+Waiting:        2    5   5.9      4     183
+Total:          2    6   6.0      5     184
+
+Percentage of the requests served within a certain time (ms)
+  50%      5
+  66%      6
+  75%      6
+  80%      6
+  90%      7
+  95%      9
+  98%     10
+  99%     13
+ 100%    184 (longest request)
