@@ -26,6 +26,8 @@ ab -n 10000 -c 10 http://127.0.0.1:port
 | Laravel       | nginx        | 378.5s     | 26.4                | 378.5 ms         | 1042 ms         |
 
 
+*Note: Ofcourse there are a lot of variables that influence application performance. A lot depends on a web server that you put in front of your application, so numbers above may vary in different configurations. The test was performed with webservers that are typical for the stack just to have a picture of how performance of those frameworks compare to each other.*
+
 ## You can test it yourself
 In order to perform tests yourself you'll need to run this project with [Docker](https://www.docker.com/), so make sure that docker app is installed on your machine.
 
